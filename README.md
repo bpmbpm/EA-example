@@ -1,2 +1,1 @@
-# 222222
-# один 
+# Enterprise Architecture Example (CHT)
