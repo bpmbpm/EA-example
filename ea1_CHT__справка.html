@@ -1,0 +1,553 @@
+﻿<!DOCTYPE html>
+<html class="vp">
+<head>
+  <meta charset="utf-8">
+  <title>ea1_v2e.vsd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta property="og:title" content="ea1_v2e.vsd" />
+
+  <script src="vp/jquery-3.1.1.min.js"></script>
+  <link href="vp/bootstrap-3.3.7.min.css" rel="stylesheet" />
+  <script src="vp/bootstrap-3.3.7.min.js"></script>
+  
+  
+  <script src="vp/mustache-2.3.0.min.js"></script>
+  <script src="vp/marked-1.0.0.min.js"></script>
+  <link href="vp/vp-style-1.4.0.min.css" rel="stylesheet" />
+  <script>
+        window.svgpublish = {"shapes":{"shape1":{"ShapeId":"shape1","Text":"Справка по интерфейсу"},"shape2":{"ShapeId":"shape2","Text":"Web – представление. Клавиши:\nCtrl + ЛКМ Вывести свойства (карточку) для единично-кликабельного объекта (иначе переход по ссылке) \nЛКМ – левая кнопка мыши\nПри выборе фигуры:\nСиняя каемка – кликабельная ссылка (при нажатии - переход по ссылке), Crtl + ЛКМ отображение таблицы свойств\nЖелтая каемка – при нажатии - отображение свойств объекта (при наличии свойств)"},"shape3":{"ShapeId":"shape3","DefaultLink":1,"Links":[{"PageId":8,"SubAddress":"титул","Description":"","Zoom":0.0}],"Text":"титул","MasterName":"Button ornament"},"shape7":{"ShapeId":"shape7","DefaultLink":1,"Links":[{"PageId":9,"SubAddress":"корень","Description":"","Zoom":0.0}],"Text":"корень","MasterName":"Button ornament"},"shape11":{"ShapeId":"shape11","DefaultLink":1,"Links":[{"PageId":12,"SubAddress":"базовый","Description":"","Zoom":0.0}],"Text":"базовый","MasterName":"Button ornament"},"shape15":{"ShapeId":"shape15","DefaultLink":1,"Links":[{"PageId":28,"SubAddress":"финансы","Description":"","Zoom":0.0}],"Text":"","MasterName":"1-D single"},"shape19":{"ShapeId":"shape19","DefaultLink":1,"Links":[{"PageId":26,"SubAddress":"техника","Description":"","Zoom":0.0}],"Props":{"Number":"24.0000","Parent":"res","ID":"ххх","Name":"Ресурсы внешние","Type":"Ресурсы","Comment":"external resource","Link":"link"},"Layers":[1],"Text":"Название объекта","MasterName":"Main process"},"shape24":{"ShapeId":"shape24","Text":"Наличие гиперссылки"},"shape27":{"ShapeId":"shape27","Text":"Значение ID (идентификатор объекта)"},"shape29":{"ShapeId":"shape29","Text":"Структурный элемент:"},"shape30":{"ShapeId":"shape30","Props":{"Number":"","Parent":"","ID":"Значение ID","Name":"Озвучивание заявки (проблемы доступа)","Type":"Процесс","Comment":"1","Владелец":"","Исполнитель":"Список исполнителей процесса","ID2":"","Link":""},"Text":"Название процесса","MasterName":"укеу"},"shape37":{"ShapeId":"shape37","Text":"VAD – элемент \u2028(не заимствованный):"},"shape38":{"ShapeId":"shape38","Text":"Номер связанного комментария"},"shape40":{"ShapeId":"shape40","Props":{"Number":"","Parent":"p.s.cli.6.1.3","ID":"","Name":"Название процесса","Type":"ПроцессЗСТ","Comment":"","Владелец":"","Исполнитель":"Список исполнителей процесса","ID2":"Значение ID2","Link":""},"Text":"Название заимствованного процесса","MasterName":"Внешний процес"},"shape45":{"ShapeId":"shape45","Text":"VAD – Элемент заимствованный (в excel «ПроцессЗСТ», повторно используемый):"},"shape48":{"ShapeId":"shape48","Text":"\u2028Отсылка к ID тиражированного процесса (ID2)"},"shape51":{"ShapeId":"shape51","DefaultLink":1,"Links":[{"PageId":13,"SubAddress":"продукты","Description":"","Zoom":0.0}],"Text":"продукты","MasterName":"Button ornament"},"shape55":{"ShapeId":"shape55","DefaultLink":1,"Links":[{"PageId":14,"SubAddress":"процессы","Description":"","Zoom":0.0}],"Text":"процессы","MasterName":"Button ornament"},"shape59":{"ShapeId":"shape59","Text":"Примечания: \nНомера ID нанесены на объекты в целях демонстрации «тотального» учета элементов архитектуры (номера присутствуют в карточке объекта)."},"shape60":{"ShapeId":"shape60","Text":"PDF – представление не содержит данных о свойствах объектов (не содержит таблицы свойств, т.к. нет доступных pdf – экспортеров для выгрузки таких данных).\n \n"}},"pages":[{"Name":"титул","Id":8,"FileName":"ea1_CHT.html"},{"Name":"корень","Id":9,"FileName":"ea1_CHT__корень.html"},{"Name":"базовый","Id":12,"FileName":"ea1_CHT__базовый.html"},{"Name":"продукты","Id":13,"FileName":"ea1_CHT__продукты.html"},{"Name":"каталог","Id":10,"FileName":"ea1_CHT__каталог.html"},{"Name":"процессы","Id":14,"FileName":"ea1_CHT__процессы.html"},{"Name":"vad1","Id":7,"FileName":"ea1_CHT__vad1.html"},{"Name":"vad2","Id":11,"FileName":"ea1_CHT__vad2.html"},{"Name":"vad3","Id":17,"FileName":"ea1_CHT__vad3.html"},{"Name":"vad4","Id":15,"FileName":"ea1_CHT__vad4.html"},{"Name":"vad5","Id":18,"FileName":"ea1_CHT__vad5.html"},{"Name":"vad6","Id":16,"FileName":"ea1_CHT__vad6.html"},{"Name":"vad7","Id":19,"FileName":"ea1_CHT__vad7.html"},{"Name":"vad8","Id":23,"FileName":"ea1_CHT__vad8.html"},{"Name":"raci","Id":24,"FileName":"ea1_CHT__raci.html"},{"Name":"люди","Id":25,"FileName":"ea1_CHT__люди.html"},{"Name":"техника","Id":26,"FileName":"ea1_CHT__техника.html"},{"Name":"нормы","Id":27,"FileName":"ea1_CHT__нормы.html"},{"Name":"финансы","Id":28,"FileName":"ea1_CHT__финансы.html"},{"Name":"справка","Id":6,"FileName":"ea1_CHT__справка.html"}],"currentPage":{"Name":"справка","Id":6,"FileName":"ea1_CHT__справка.html"},"layers":[{"Name":"Блок-схема","Index":1,"Visible":true},{"Name":"Соединительная линия","Index":2,"Visible":true},{"Name":"Рисунок, связанный с данными","Index":3,"Visible":true},{"Name":"Connector","Index":4,"Visible":true},{"Name":"Выноска","Index":5,"Visible":true}],"enableProps":true,"twoFingersTouch":false,"enableAutoFrameHeight":false,"enableLinks":true,"enablePages":true,"enablePageLookup":false,"enablePageSort":false,"enableZoomCtrl":false,"enableZoomShift":false,"enableSearch":false,"enableMultiPageSearch":false,"enableSidebar":true,"enableTooltips":true,"enableSelection":true,"enableHover":true,"enableLayers":false,"enableFollowHyperlinks":true,"openHyperlinksInNewWindow":true,"transformVisioFileLinks":false,"useReadablePageNames":true,"keepRelativeLinks":true,"rightSidebar":false,"alwaysHideSidebar":false,"showSidebarOnSelection":false,"enableSidbarTitle":false,"enableSidebarMarkdown":false,"enableTooltipMarkdown":false,"enableD3":false,"skipMinification":false,"enableBootstrapSwitch":false,"enableBootstrapSelect":false,"tooltipPlacement":"","popoverPlacement":"","enablePopovers":false,"enablePopoverMarkdown":false,"contentMarkdown":"","enableContentMarkdown":true,"tooltipTrigger":"","tooltipOutsideClick":false,"tooltipUseMousePosition":false,"tooltipKeepOnHover":false,"tooltipTimeout":false,"tooltipTimeoutShow":"","sidebarDefaultWidth":"","tooltipTimeoutHide":"","popoverTrigger":"","popoverTimeout":false,"popoverOutsideClick":false,"popoverKeepOnHover":false,"popoverTimeoutShow":"","popoverTimeoutHide":"","popoverUseMousePosition":false,"enableContainerTip":false,"enablePropertySearch":false,"enablePropertySearchFilter":false,"processNested":false,"processBackground":false,"viewBox":"0 0 841.89 595.276","layerView":{"enableLayerLookup":false,"enableLayerSort":false,"enableLayerToggles":false,"enableLayerShowAll":false},"selectionView":{"enableBoxSelection":false,"enableBlur":false,"blur":2,"enableDilate":true,"dilate":4,"mode":"normal","selectColor":"rgba(255, 255, 0, 0.90)","hoverColor":"rgba(255, 255, 0, 0.30)","hyperlinkColor":"rgba(0, 0, 255, 0.30)"}}
+        $(document).ready(function () { $("div.svg").panzoom({ svg: $("div.svg > svg").get(0), viewBox: "0 0 841.89 595.276" }).removeClass("appear"); });
+  </script>
+  <script src="vp/vp-script-1.4.0.min.js"></script>
+  <style>
+  .nav > li > a {
+    padding: 0px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, 
+.table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom:1px;
+    padding-left: 1px;
+}
+  </style>
+</head>
+<body>
+  
+  <div id="body-html"></div>
+  <div id="diagram-sidebar" style="display: none; position: absolute">
+    <div style="height: 100%; width: 100%; padding: 1em">
+      <div id="sidebar-html"></div>
+
+      <div id="shape-pages" class="panel panel-default" style="display: none">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <svg class="icon-sidebar">
+              <symbol id="icon-page" viewBox="0 0 32 32">
+                <path d="M28.232 6.232l-4.465-4.464c-0.972-0.972-2.893-1.768-4.268-1.768h-15c-1.375 0-2.5 1.125-2.5 2.5v27c0 1.375 1.125 2.5 2.5 2.5h23c1.375 0 2.5-1.125 2.5-2.5v-19c0-1.375-0.796-3.296-1.768-4.268zM26.818 7.646c0.098 0.098 0.195 0.218 0.29 0.354h-5.108v-5.108c0.136 0.095 0.256 0.192 0.354 0.29l4.465 4.464zM28 29.5c0 0.271-0.229 0.5-0.5 0.5h-23c-0.271 0-0.5-0.229-0.5-0.5v-27c0-0.271 0.229-0.5 0.5-0.5h15c0.151 0 0.32 0.019 0.5 0.053v7.947h7.947c0.034 0.18 0.053 0.349 0.053 0.5v19z"></path>
+              </symbol>
+              <use xlink:href="#icon-page"></use>
+            </svg>&nbsp;
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapsePages">&#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1099;</a>
+          </h4>
+        </div>
+        <div id="collapsePages" class="panel-collapse collapse in">
+          <div class="panel-body">
+            
+            <div id="panel-pages"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="shape-links" class="panel panel-default" style="display: none">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <svg class="icon-sidebar">
+              <symbol id="icon-chain" viewBox="0 0 26 28">
+                <path d="M22.75 19c0-0.406-0.156-0.781-0.438-1.062l-3.25-3.25c-0.281-0.281-0.672-0.438-1.062-0.438-0.453 0-0.812 0.172-1.125 0.5 0.516 0.516 1.125 0.953 1.125 1.75 0 0.828-0.672 1.5-1.5 1.5-0.797 0-1.234-0.609-1.75-1.125-0.328 0.313-0.516 0.672-0.516 1.141 0 0.391 0.156 0.781 0.438 1.062l3.219 3.234c0.281 0.281 0.672 0.422 1.062 0.422s0.781-0.141 1.062-0.406l2.297-2.281c0.281-0.281 0.438-0.656 0.438-1.047zM11.766 7.984c0-0.391-0.156-0.781-0.438-1.062l-3.219-3.234c-0.281-0.281-0.672-0.438-1.062-0.438s-0.781 0.156-1.062 0.422l-2.297 2.281c-0.281 0.281-0.438 0.656-0.438 1.047 0 0.406 0.156 0.781 0.438 1.062l3.25 3.25c0.281 0.281 0.672 0.422 1.062 0.422 0.453 0 0.812-0.156 1.125-0.484-0.516-0.516-1.125-0.953-1.125-1.75 0-0.828 0.672-1.5 1.5-1.5 0.797 0 1.234 0.609 1.75 1.125 0.328-0.313 0.516-0.672 0.516-1.141zM25.75 19c0 1.188-0.484 2.344-1.328 3.172l-2.297 2.281c-0.844 0.844-1.984 1.297-3.172 1.297-1.203 0-2.344-0.469-3.187-1.328l-3.219-3.234c-0.844-0.844-1.297-1.984-1.297-3.172 0-1.234 0.5-2.406 1.375-3.266l-1.375-1.375c-0.859 0.875-2.016 1.375-3.25 1.375-1.188 0-2.344-0.469-3.187-1.313l-3.25-3.25c-0.859-0.859-1.313-1.984-1.313-3.187 0-1.188 0.484-2.344 1.328-3.172l2.297-2.281c0.844-0.844 1.984-1.297 3.172-1.297 1.203 0 2.344 0.469 3.187 1.328l3.219 3.234c0.844 0.844 1.297 1.984 1.297 3.172 0 1.234-0.5 2.406-1.375 3.266l1.375 1.375c0.859-0.875 2.016-1.375 3.25-1.375 1.188 0 2.344 0.469 3.187 1.313l3.25 3.25c0.859 0.859 1.313 1.984 1.313 3.187z"></path>
+              </symbol>
+              <use xlink:href="#icon-chain"></use>
+            </svg>&nbsp;
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseLinks">&#1057;&#1089;&#1099;&#1083;&#1082;&#1080; &#1092;&#1080;&#1075;&#1091;&#1088;&#1099;</a>
+          </h4>
+        </div>
+        <div id="collapseLinks" class="panel-collapse collapse in">
+          <div id="panel-links"
+               data-labelnolinks="&#1053;&#1077;&#1090; &#1089;&#1089;&#1099;&#1083;&#1086;&#1082;"
+               class="panel-body">
+          </div>
+        </div>
+      </div>
+      
+      <div id="shape-props" class="panel panel-default" style="display: none">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <svg class="icon-sidebar">
+              <symbol id="icon-list-ul" viewBox="0 0 28 28">
+                <path d="M6 22c0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3 3 1.344 3 3zM6 14c0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3 3 1.344 3 3zM28 20.5v3c0 0.266-0.234 0.5-0.5 0.5h-19c-0.266 0-0.5-0.234-0.5-0.5v-3c0-0.266 0.234-0.5 0.5-0.5h19c0.266 0 0.5 0.234 0.5 0.5zM6 6c0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3 3 1.344 3 3zM28 12.5v3c0 0.266-0.234 0.5-0.5 0.5h-19c-0.266 0-0.5-0.234-0.5-0.5v-3c0-0.266 0.234-0.5 0.5-0.5h19c0.266 0 0.5 0.234 0.5 0.5zM28 4.5v3c0 0.266-0.234 0.5-0.5 0.5h-19c-0.266 0-0.5-0.234-0.5-0.5v-3c0-0.266 0.234-0.5 0.5-0.5h19c0.266 0 0.5 0.234 0.5 0.5z"></path>
+              </symbol>
+              <use xlink:href="#icon-list-ul"></use>
+            </svg>&nbsp;
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseProps">&#1057;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1072; &#1092;&#1080;&#1075;&#1091;&#1088;&#1099;</a>
+          </h4>
+        </div>
+        <div id="collapseProps" class="panel-collapse collapse in">
+          <div id="panel-props"
+               data-labelproperty="&#1057;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1086;"
+               data-labelvalue="&#1047;&#1085;&#1072;&#1095;&#1077;&#1085;&#1080;&#1077;"
+               data-labelnodata="&#1053;&#1077;&#1090; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093;"
+               class="panel-body">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sidebar-toggle" style="display: none">
+    <svg class="icon-sidebar">
+      <symbol id="icon-bars" viewBox="0 0 24 28">
+        <path d="M24 21v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 13v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 5v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1z"></path>
+      </symbol>
+      <use xlink:href="#icon-bars"></use>
+    </svg>
+  </div>
+  <div id="svg" class="svg appear">
+    <svg width="100%" height="100%" xml:space="preserve" color-interpolation-filters="sRGB" class="st21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	
+
+	<style type="text/css">
+	.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st2 {fill:#000000;font-family:Calibri;font-size:1.16666em;font-weight:bold;}
+	.st3 {fill:#ebf1df;fill-opacity:0.78;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st4 {fill:#000000;font-family:Calibri;font-size:1.00001em;font-weight:bold;}
+	.st5 {font-size:1em;}
+	.st6 {font-size:1em;font-weight:normal;}
+	.st7 {fill:#1f477d;font-size:1em;font-weight:normal;}
+	.st8 {fill:#ff0000;font-size:1em;font-weight:normal;}
+	.st9 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st10 {fill:#000000;font-family:Calibri;font-size:1.00001em;}
+	.st11 {fill:#f2f2f2;}
+	.st12 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st13 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;}
+	.st14 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;visibility:hidden;}
+	.st15 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;}
+	.st16 {fill:#000000;font-family:Calibri;font-size:0.833336em;}
+	.st17 {fill:#000000;font-family:Calibri;font-size:0.666664em;}
+	.st18 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st19 {fill:#c4d6a0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st20 {fill:#eaeff5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;}
+	.st21 {fill:none;fill-rule:evenodd;font-size:12px;overflow:hidden;stroke-linecap:square;stroke-miterlimit:3;}
+</style>
+
+	<g id="viewport">
+		
+		
+		
+		
+		
+		
+		
+		
+		<g id="shape1" transform="translate(137.48,-561.26)">
+			
+			<desc>Справка по интерфейсу</desc>
+			
+			
+			<rect x="0" y="581.102" width="208.346" height="14.1732" class="st1" />
+			<text x="32.36" y="591.97" class="st2">Справка по интерфейсу</text>		</g>
+		<g id="shape2" transform="translate(155.16,-396.85)">
+			
+			<desc>Web – представление. Клавиши: Ctrl + ЛКМ Вывести свойства (ка...</desc>
+			
+			
+			<rect x="0" y="453.543" width="340.157" height="141.732" rx="22.6772" ry="22.6772" class="st3" />
+			<text x="4" y="470.41" class="st4">Web<tspan class="st5">&#xa0;</tspan>– <tspan class="st5">представление</tspan><tspan class="st5">. </tspan><tspan class="st5">Клавиши</tspan><tspan class="st5">:</tspan><tspan x="4" dy="1.2em" class="st5">Ctrl </tspan>+ <tspan class="st5">ЛКМ</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">Вывести свойства </tspan><tspan class="st6">(</tspan><tspan class="st6">карточку</tspan><tspan class="st6">) </tspan><tspan class="st6">для единично</tspan><tspan class="st6">-</tspan><tspan x="4" dy="1.2em" class="st6">кликабельного объекта </tspan><tspan class="st6">(</tspan><tspan class="st6">иначе переход по ссылке</tspan><tspan class="st6">) </tspan><tspan x="4" dy="1.2em" class="st6">ЛКМ </tspan><tspan class="st6">–</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">левая кнопка мыши</tspan><tspan x="4" dy="1.2em" class="st5">При выборе фигуры</tspan><tspan class="st5">:</tspan><tspan x="4" dy="1.2em" class="st7">Синяя каемка</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">–</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">кликабельная ссылка </tspan><tspan class="st6">(</tspan><tspan class="st6">при нажатии </tspan><tspan class="st6">-</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">переход по </tspan><tspan x="4" dy="1.2em" class="st6">ссылке</tspan><tspan class="st6">)</tspan><tspan class="st6">, </tspan><tspan class="st6">Crtl </tspan><tspan class="st6">+ </tspan><tspan class="st6">ЛКМ отображение таблицы свойств</tspan><tspan x="4" dy="1.2em" class="st8">Желтая каемка </tspan><tspan class="st6">–</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">при нажатии </tspan><tspan class="st6">-</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">отображение свойств объекта </tspan><tspan x="4" dy="1.2em" class="st6">(</tspan><tspan class="st6">при наличии свойств</tspan><tspan class="st6">)</tspan></text>		</g>
+		<g id="shape3" transform="translate(749.737,-547.087)" class="button-ornament">
+			
+			
+			<desc>титул</desc>
+			<g id="shape4-58">
+				
+				<rect x="0" y="566.929" width="73.9515" height="28.3465" class="st9" />
+			</g>
+			<g id="shape5-60">
+				
+				<path d="M71.12 569.76 L73.95 566.93 L0 566.93 L2.83 569.76 L71.12 569.76 ZM2.83 592.44 L0 595.28 L0 566.93 L2.83         569.76 L2.83 592.44 Z" class="st9" />
+			</g>
+			<g id="shape6-62">
+				
+				<path d="M71.12 592.44 L73.95 595.28 L73.95 566.93 L71.12 569.76 L71.12 592.44 ZM71.12 592.44 L73.95 595.28 L0 595.28         L2.83 592.44 L71.12 592.44 Z" class="st9" />
+			</g>
+			<g id="shape3-64">
+				
+				
+				<text x="23.31" y="584.7" class="st10">титул</text>			</g>
+		</g>
+		<g id="shape7" transform="translate(673.005,-547.087)" class="button-ornament">
+			
+			
+			<desc>корень</desc>
+			<g id="shape8-67">
+				
+				<rect x="0" y="566.929" width="73.9515" height="28.3465" class="st9" />
+			</g>
+			<g id="shape9-69">
+				
+				<path d="M71.12 569.76 L73.95 566.93 L0 566.93 L2.83 569.76 L71.12 569.76 ZM2.83 592.44 L0 595.28 L0 566.93 L2.83         569.76 L2.83 592.44 Z" class="st9" />
+			</g>
+			<g id="shape10-71">
+				
+				<path d="M71.12 592.44 L73.95 595.28 L73.95 566.93 L71.12 569.76 L71.12 592.44 ZM71.12 592.44 L73.95 595.28 L0 595.28         L2.83 592.44 L71.12 592.44 Z" class="st9" />
+			</g>
+			<g id="shape7-73">
+				
+				
+				<text x="18.86" y="584.7" class="st10">корень</text>			</g>
+		</g>
+		<g id="shape11" transform="translate(595.276,-547.087)" class="button-ornament">
+			
+			
+			<desc>базовый</desc>
+			<g id="shape12-76">
+				
+				<rect x="0" y="566.929" width="73.9515" height="28.3465" class="st9" />
+			</g>
+			<g id="shape13-78">
+				
+				<path d="M71.12 569.76 L73.95 566.93 L0 566.93 L2.83 569.76 L71.12 569.76 ZM2.83 592.44 L0 595.28 L0 566.93 L2.83         569.76 L2.83 592.44 Z" class="st9" />
+			</g>
+			<g id="shape14-80">
+				
+				<path d="M71.12 592.44 L73.95 595.28 L73.95 566.93 L71.12 569.76 L71.12 592.44 ZM71.12 592.44 L73.95 595.28 L0 595.28         L2.83 592.44 L71.12 592.44 Z" class="st9" />
+			</g>
+			<g id="shape11-82">
+				
+				
+				<text x="15.09" y="584.7" class="st10">базовый</text>			</g>
+		</g>
+		<g id="shape15" transform="translate(788.031,1142.06) rotate(180)" class="1-d-single">
+			
+			
+			<g id="shape16-85">
+				
+				<path d="M0 588.19 L21.26 588.19 L21.26 595.28 L28.35 581.1 L21.26 566.93 L21.26 574.02 L0 574.02 L0 588.19 Z" class="st11" />
+				<path d="M0 588.19 L21.26 588.19 L21.26 595.28 L28.35 581.1 L21.26 566.93 L21.26 574.02 L0 574.02" class="st12" />
+			</g>
+			<g id="shape17-88">
+				
+				<path d="M0 588.19 L21.26 588.19 L21.26 595.28 L28.35 581.1 L21.26 566.93 L21.26 574.02 L0 574.02 L0 588.19" class="st13" />
+			</g>
+			<g id="shape18-91" transform="translate(-0.363465,-7.20661)">
+				
+				<rect x="0" y="581.342" width="0.16" height="13.9332" class="st14" />
+			</g>
+		</g>
+		<g id="shape19" transform="translate(155.906,-276.751)" class="main-process">
+			
+			
+			
+			<desc>Название объекта</desc>
+			<g id="shape19-94">
+				
+				
+				<rect x="0" y="537.874" width="85.0394" height="57.4016" rx="10.6299" ry="10.6299" class="st15" />
+				<text x="3.99" y="569.57" class="st16">Название объекта</text>			</g>
+			<g id="group20-97" transform="translate(89.5394,7.2191)">
+				
+				
+				
+				<g id="shape20-98">
+					
+					
+					<path d="M1.42 593.86 L83.62 593.86 L83.62 582.25 L1.42 582.25 L1.42 593.86" class="st12" />
+				</g>
+				<g id="shape21-101">
+					
+					
+					
+					
+					<text x="2.42" y="590.46" class="st17">link</text>				</g>
+			</g>
+			<g id="group22-103">
+				
+				
+				
+				<g id="shape22-104">
+					
+					
+					<path d="M1.42 593.86 L83.62 593.86" class="st18" />
+					<text x="2.42" y="590.45" class="st17">ID</text>				</g>
+				<g id="shape23-108">
+					
+					
+					
+					
+					<text x="72.23" y="590.46" class="st17">ххх</text>				</g>
+			</g>
+		</g>
+		<g id="shape24" transform="translate(236.693,-233.858)">
+			
+			<desc>Наличие гиперссылки</desc>
+			
+			
+			<rect x="0" y="566.929" width="136.063" height="28.3465" class="st1" />
+			<text x="21.32" y="584.1" class="st16">Наличие гиперссылки</text>		</g>
+		<g id="shape25" transform="translate(414.259,-245.359) rotate(15.6422)">
+			
+			<path d="M0 595.28 L45.57 595.28" class="st18" />
+		</g>
+		<g id="shape27" transform="translate(127.559,-226.772)">
+			
+			<desc>Значение ID (идентификатор объекта)</desc>
+			
+			
+			<rect x="0" y="566.929" width="127.559" height="28.3465" class="st1" />
+			<text x="38.18" y="578.1" class="st16">Значение ID <tspan x="9.47" dy="1.2em" class="st5">(</tspan>идентификатор объекта)</text>		</g>
+		<g id="shape28" transform="translate(567.111,798.631) rotate(144.866)">
+			
+			<path d="M0 595.28 L49.26 595.28" class="st18" />
+		</g>
+		<g id="shape29" transform="translate(137.48,-336.801)">
+			
+			<desc>Структурный элемент:</desc>
+			
+			
+			<rect x="0" y="566.929" width="136.063" height="28.3465" class="st1" />
+			<text x="10.98" y="584.7" class="st10">Структурный элемент:</text>		</g>
+		<g id="shape30" transform="translate(391.181,-269.291)" class="укеу">
+			
+			
+			
+			<desc>Название процесса</desc>
+			<g id="shape30-127">
+				
+				
+				<path d="M0 538.58 L88.96 538.58 L111.21 566.93 L88.96 595.28 L0 595.28 L0 538.58 Z" class="st19" />
+				<text x="6.29" y="570.53" class="st10">Название процесса</text>			</g>
+			<g id="group31-130" transform="translate(115.705,-49.4738)">
+				
+				
+				
+				<g id="shape31-131">
+					
+					
+					<path d="M1.42 593.86 L109.79 593.86 L109.79 582.25 L1.42 582.25 L1.42 593.86" class="st12" />
+				</g>
+				<g id="shape32-134">
+					
+					
+					
+					
+					<text x="2.42" y="590.46" class="st17">1</text>				</g>
+			</g>
+			<g id="group33-136" transform="translate(1.59872E-14,33.3383)">
+				
+				
+				
+				<g id="shape33-137">
+					
+					
+					<path d="M1.42 593.86 L109.79 593.86 L109.79 567.85 L1.42 567.85 L1.42 593.86" class="st12" />
+				</g>
+				<g id="shape34-140">
+					
+					
+					
+					
+					<text x="16.15" y="577.86" class="st16">Список исполнителей <tspan x="69.42" dy="1.2em" class="st5">процесса</tspan></text>				</g>
+			</g>
+			<g id="group35-143">
+				
+				
+				
+				<g id="shape35-144">
+					
+					
+					<path d="M1.42 593.86 L109.79 593.86 L109.79 582.25 L1.42 582.25 L1.42 593.86" class="st12" />
+				</g>
+				<g id="shape36-147">
+					
+					
+					
+					
+					<text x="67.83" y="590.46" class="st17">Значение ID</text>				</g>
+			</g>
+		</g>
+		<g id="shape37" transform="translate(382.677,-333.444)">
+			
+			<desc>VAD – элемент (не заимствованный):</desc>
+			
+			
+			<rect x="0" y="566.929" width="136.063" height="28.3465" class="st1" />
+			<text x="30.48" y="578.1" class="st10">VAD – <tspan class="st5">элемент </tspan><tspan x="12.22" dy="1em" class="st5">(</tspan><tspan class="st5">не заимствованный</tspan><tspan class="st5">):</tspan></text>		</g>
+		<g id="shape38" transform="translate(498.898,-283.465)">
+			
+			<desc>Номер связанного комментария</desc>
+			
+			
+			<rect x="0" y="566.929" width="110.551" height="28.3465" class="st1" />
+			<text x="16.16" y="578.1" class="st16">Номер связанного <tspan x="26.36" dy="1.2em" class="st5">комментария</tspan></text>		</g>
+		<g id="shape39" transform="translate(815.815,-243.883) rotate(30.089)">
+			
+			<path d="M0 595.28 L24.51 595.28" class="st18" />
+		</g>
+		<g id="shape40" transform="translate(639.976,-269.291)" class="внешний-процес">
+			
+			
+			
+			<desc>Название заимствованного процесса</desc>
+			<g id="shape40-164">
+				
+				
+				<path d="M0 538.58 L88.96 538.58 L111.21 566.93 L88.96 595.28 L0 595.28 L0 538.58 Z" class="st20" />
+				<text x="31.27" y="558.83" class="st10">Название <tspan x="11.43" dy="0.9em" class="st5">заимствованного </tspan><tspan x="31.98" dy="0.9em" class="st5">процесса</tspan></text>			</g>
+			<g id="group41-169" transform="translate(0,28.8383)">
+				
+				
+				
+				<g id="shape41-170">
+					
+					
+					<path d="M1.42 593.86 L109.79 593.86 L109.79 567.85 L1.42 567.85 L1.42 593.86" class="st12" />
+				</g>
+				<g id="shape42-173">
+					
+					
+					
+					
+					<text x="16.15" y="577.86" class="st16">Список исполнителей <tspan x="69.42" dy="1.2em" class="st5">процесса</tspan></text>				</g>
+			</g>
+			<g id="group43-176">
+				
+				
+				
+				<g id="shape43-177">
+					
+					
+					<path d="M1.42 593.86 L109.79 593.86 L109.79 582.25 L1.42 582.25 L1.42 593.86" class="st12" />
+					<text x="2.42" y="590.45" class="st17">ID2</text>				</g>
+				<g id="shape44-181">
+					
+					
+					
+					
+					<text x="63.78" y="590.46" class="st17">Значение ID2</text>				</g>
+			</g>
+		</g>
+		<g id="shape45" transform="translate(619.37,-331.206)">
+			
+			<desc>VAD – Элемент заимствованный (в excel «ПроцессЗСТ», повторно ...</desc>
+			
+			
+			<rect x="0" y="566.929" width="180" height="28.3465" class="st1" />
+			<text x="7.45" y="572.1" class="st10">VAD – <tspan class="st5">Элемент заимствованный </tspan><tspan x="6.62" dy="1em" class="st5">(</tspan><tspan class="st5">в </tspan>excel <tspan class="st5">«</tspan><tspan class="st5">ПроцессЗСТ</tspan><tspan class="st5">»</tspan><tspan class="st5">, </tspan><tspan class="st5">повторно </tspan><tspan x="49.09" dy="1em" class="st5">используемый</tspan><tspan class="st5">):</tspan></text>		</g>
+		<g id="shape48" transform="translate(555.591,-232.739)">
+			
+			<desc>Отсылка к ID тиражированного процесса (ID2)</desc>
+			
+			
+			<rect x="0" y="572.897" width="110.551" height="22.3788" class="st1" />
+			<text x="28.4" y="581.09" class="st16">Отсылка к ID <tspan x="17.06" dy="1.2em" class="st5">тиражированного </tspan><tspan x="24.56" dy="1.2em" class="st5">процесса </tspan>(ID2)</text>		</g>
+		<g id="shape49" transform="translate(953.291,830.777) rotate(147.995)">
+			
+			<path d="M0 595.28 L26.74 595.28" class="st18" />
+		</g>
+		<g id="shape51" transform="translate(436.285,-546.52)" class="button-ornament">
+			
+			
+			<desc>продукты</desc>
+			<g id="shape52-205">
+				
+				<rect x="0" y="566.929" width="73.9515" height="28.3465" class="st9" />
+			</g>
+			<g id="shape53-207">
+				
+				<path d="M71.12 569.76 L73.95 566.93 L0 566.93 L2.83 569.76 L71.12 569.76 ZM2.83 592.44 L0 595.28 L0 566.93 L2.83         569.76 L2.83 592.44 Z" class="st9" />
+			</g>
+			<g id="shape54-209">
+				
+				<path d="M71.12 592.44 L73.95 595.28 L73.95 566.93 L71.12 569.76 L71.12 592.44 ZM71.12 592.44 L73.95 595.28 L0 595.28         L2.83 592.44 L71.12 592.44 Z" class="st9" />
+			</g>
+			<g id="shape51-211">
+				
+				
+				<text x="12.37" y="584.7" class="st10">продукты</text>			</g>
+		</g>
+		<g id="shape55" transform="translate(515.78,-546.893)" class="button-ornament">
+			
+			
+			<desc>процессы</desc>
+			<g id="shape56-214">
+				
+				<rect x="0" y="566.929" width="73.9515" height="28.3465" class="st9" />
+			</g>
+			<g id="shape57-216">
+				
+				<path d="M71.12 569.76 L73.95 566.93 L0 566.93 L2.83 569.76 L71.12 569.76 ZM2.83 592.44 L0 595.28 L0 566.93 L2.83         569.76 L2.83 592.44 Z" class="st9" />
+			</g>
+			<g id="shape58-218">
+				
+				<path d="M71.12 592.44 L73.95 595.28 L73.95 566.93 L71.12 569.76 L71.12 592.44 ZM71.12 592.44 L73.95 595.28 L0 595.28         L2.83 592.44 L71.12 592.44 Z" class="st9" />
+			</g>
+			<g id="shape55-220">
+				
+				
+				<text x="12.23" y="584.7" class="st10">процессы</text>			</g>
+		</g>
+		<g id="shape59" transform="translate(135.914,-113.386)">
+			
+			<desc>Примечания: Номера ID нанесены на объекты в целях демонстраци...</desc>
+			
+			
+			<rect x="0" y="566.929" width="380.141" height="28.3465" class="st1" />
+			<text x="4" y="563.1" class="st10">Примечания: <tspan x="4" dy="1.2em" class="st5">Номера </tspan><tspan class="st5">ID </tspan>нанесены на объекты в целях демонстрации «тотального» <tspan x="4" dy="1.2em" class="st5">учета элементов архитектуры </tspan>(номера присутствуют в карточке <tspan x="4" dy="1.2em" class="st5">объекта</tspan>).</text>		</g>
+		<g id="shape60" transform="translate(510.236,-396.85)">
+			
+			<desc>PDF – представление не содержит данных о свойствах объектов (...</desc>
+			
+			
+			<rect x="0" y="453.543" width="311.811" height="141.732" rx="22.6772" ry="22.6772" class="st3" />
+			<text x="4" y="499.21" class="st4">PDF<tspan class="st5">&#xa0;</tspan>– <tspan class="st5">представление</tspan> <tspan class="st6">не содержит данных о свойствах </tspan><tspan x="4" dy="1.2em" class="st6">объектов </tspan><tspan class="st6">(</tspan><tspan class="st6">не содержит таблицы свойств</tspan><tspan class="st6">, </tspan><tspan class="st6">т</tspan><tspan class="st6">.</tspan><tspan class="st6">к</tspan><tspan class="st6">. </tspan><tspan class="st6">нет </tspan><tspan x="4" dy="1.2em" class="st6">доступных </tspan><tspan class="st6">pdf </tspan><tspan class="st6">–</tspan><tspan class="st6">&#xa0;</tspan><tspan class="st6">экспортеров для выгрузки таких данных</tspan><tspan class="st6">)</tspan><tspan class="st6">.</tspan> </text>		</g>
+	</g>
+</svg>
+  </div>
+  
+  <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <filter id="hover">
+        <feMorphology operator="dilate" radius="4"></feMorphology>
+	      
+        <feColorMatrix type="matrix" values="
+                       1.00 1.00 1.00 1.00 1.00
+                       1.00 1.00 1.00 1.00 1.00
+                       0.00 0.00 0.00 0.00 0.00
+                       0 0 0 0.30 0" result="matrix" />
+        <feBlend in="SourceGraphic" in2="matrix" mode="normal" />
+      </filter>
+
+      <filter id="select">
+        <feMorphology operator="dilate" radius="4"></feMorphology>
+	      
+        <feColorMatrix type="matrix" values="
+                       1.00 1.00 1.00 1.00 1.00
+                       1.00 1.00 1.00 1.00 1.00
+                       0.00 0.00 0.00 0.00 0.00
+                       0 0 0 0.90 0" result="matrix" />
+        <feBlend in="SourceGraphic" in2="matrix" mode="normal" />
+      </filter>
+      <filter id="hyperlink">
+        <feMorphology operator="dilate" radius="4"></feMorphology>
+	      
+        <feColorMatrix type="matrix" values="
+                       0.00 0.00 0.00 0.00 0.00
+                       0.00 0.00 0.00 0.00 0.00
+                       1.00 1.00 1.00 1.00 1.00
+                       0 0 0 0.30 0" result="matrix" />
+        <feBlend in="SourceGraphic" in2="matrix" mode="normal" />
+      </filter>
+    </defs>
+  </svg>
+</body>
+</html>
