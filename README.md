@@ -7,3 +7,5 @@ Enterprise Architecture (ЕА) – это общая (верхнеуровнев
 - Excel & Visio 
 - SVG publish https://unmanagedvisio.com/products/svg-publish/   
 https://github.com/nbelyh/svgpublish-releases/releases
+Статья:
+https://habr.com/ru/articles/726428/
