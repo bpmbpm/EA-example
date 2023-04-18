@@ -9,7 +9,7 @@ https://habr.com/ru/articles/726428/
 - SVG publish https://unmanagedvisio.com/products/svg-publish/   
 https://github.com/nbelyh/svgpublish-releases/releases
 # Использование базового подхода:
-ea1.xlsx, ea1_CHT.vsd  
+ea1.xlsx (C:\Temp\ea\ea1.xlsx), ea1_CHT.vsd  
 Действия (ручная отрисовка фигур):   
 1 При необходимости корректируем данные в excel файле   
 2 Открываем visio, переход на вкладку «титул». Обновление данных \ Обновить всё. Если в excel добавились новые строки, то связываем (вручную или автоматически)   
