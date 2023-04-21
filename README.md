@@ -27,3 +27,5 @@ https://github.com/nbelyh/svgpublish-releases/releases
 Имеется репозитарий корпоративной архитектуры, например, в виде файла excel или источника, связанного по ODBC. 
 Задача: на основе данных из репозитария, содержащего объекты архитектуры предприятия, автоматически построить схему архитектуры: сгенерировать дерево на основе данных об иерархии объектов (visio мастер орг-диаграмм).   
 https://bpmbpm.github.io/EA-example/Orgchart.html
+Файл данных: https://github.com/bpmbpm/EA-example/blob/master/ea2.xls    
+Результат работы мастера: https://github.com/bpmbpm/EA-example/blob/master/Orgchart.vsdx
